@@ -15,7 +15,6 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="<?php echo $this->createUrl("/admin/"); ?>">
-            <img src="<?= Yii::app()->baseUrl ?>/assets/images/logo-icon-white.png" height="34" class="d-inline-block align-bottom" alt="">
             <?= $sitename ?>
         </a>
         <!-- Only on xs screens -->
