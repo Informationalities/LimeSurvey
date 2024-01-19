@@ -53,7 +53,7 @@ $questionEditor = $questionEditor ?? false;
 <!-- Footer -->
 <footer class="container-fluid footer d-flex flex-grow-1 flex-column justify-content-end text-end">
     <div>
-        <a data-bs-toggle="tooltip" title='<?php eT("Visit our website!"); ?>' href='https://community.limesurvey.org' target='_blank'>LimeSurvey Community Edition</a>
+        <a data-bs-toggle="tooltip" title='<?php eT("Visit our website!"); ?>' href='https://community.limesurvey.org' target='_blank'>powered by LimeSurvey Community Edition</a>
         <?php if (Permission::model()->hasGlobalPermission('superadmin', 'read')) { ?>
             <a href="#modalSystemInformation" data-bs-toggle="modal" title="<?= gT("Get system information") ?>">
         <?php } ?>
